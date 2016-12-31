@@ -1,0 +1,20 @@
+{
+    "name": "mindfullsilence/wp-template-hierarchy",
+    "description": "Get the hierarchy array of templates for a given post without a file_exists check, and a few filters that allow for hooking",
+    "type": "library",
+    "version": "1.1.2",
+    "require": {
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Timothy Anderson",
+            "email": "mindfullsilence@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Mindfullsilence\\": ["src/"]
+        }
+    }
+}
